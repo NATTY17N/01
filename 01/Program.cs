@@ -6,7 +6,10 @@ namespace _01
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int x = 10;
+            int y = 5;
+            Console.WriteLine("5 + 10 = {0}", x + y);
+            Console.ReadKey();
         }
     }
 }
